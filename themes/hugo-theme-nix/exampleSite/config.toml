@@ -1,8 +1,8 @@
-baseurl = "http://senyoltw.net/"
-title = "senyoltw.net"
+baseurl = "http://example.org/"
+title = "Hugo Website"
 theme = "hugo-theme-nix"
-languageCode = "ja-jp"
-disqusShortname = "senyoltw.net"
+languageCode = "en-us"
+disqusShortname = "your_disqus_shortname"
 
 [menu]
   [[menu.header]]
