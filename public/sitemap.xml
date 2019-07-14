@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://senyoltw.net/categories/</loc>
+    <loc>https://senyoltw.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://senyoltw.net/tags/</loc>
+    <loc>https://senyoltw.net/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://senyoltw.net/</loc>
+    <loc>https://senyoltw.net/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,4 +1,4 @@
-baseurl = "http://senyoltw.net/"
+baseurl = "https://senyoltw.net/"
 title = "senyoltw.net"
 theme = "hugo-theme-nix"
 languageCode = "ja-jp"
