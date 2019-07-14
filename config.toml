@@ -6,13 +6,13 @@ disqusShortname = "senyoltw.net"
 
 [menu]
   [[menu.header]]
-    name = "post"
-    weight = 0
-    url = "/post"
-  [[menu.header]]
-    name = "about"
+    name = "blog"
     weight = 1
-    url = "/about"
+    url = "https://senyoltw.hatenablog.jp/"
+  [[menu.header]]
+    name = "bookmark"
+    weight = 0
+    url = "https://b.hatena.ne.jp/iuyui/bookmark"
 
 [params]
   GithubID = "senyoltw"
