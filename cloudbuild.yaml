@@ -1,0 +1,12 @@
+ secrets:
+   - kmsKeyName: projects/ambient-union-759/locations/global/keyRings/keyring/cryptoKeys/hugo-key
+     secretEnv:
+      FIREBASE_TOKEN: CiQA7j09qgAcUDhehkpkTtvIUEnMLUXRMiPCZ4CcjWo72mXDd8YSawCyhk0HIVEYWhgeRsEJuUb+LqyliQgA0+NBvkycPIPwtJTE1PanCsSZzssXUQ6PKkrCXe31XIGDCY4IUdQJRrq3qbrkwXy36gbKrR9tPlOrtW0SsiqbgMVYRHzjNIS5KNdJErWy7wWYE1iV
+ steps:
+ - id: "Generate html"
+   name: 'gcr.io/${PROJECT_ID}/hugo'
+   args: ['']
+ - id: "Deploy to Firebase Hosting"
+   name: 'gcr.io/${PROJECT_ID}/firebase'
+   args: ['deploy']
+   secretEnv: ['FIREBASE_TOKEN']
