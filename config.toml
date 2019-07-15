@@ -12,11 +12,11 @@ disqusShortname = "senyoltw.net"
 
 [params]
   BlogURL = "https://senyoltw.hatenablog.jp/"
-  BookmarkURL = "https://b.hatena.ne.jp/iuyui/bookmark"
   GithubID = "senyoltw"
-  TumblrURL = "https://senyoltw.tumblr.com/"
   TwitterID = "senyoltw"
   InstagramID = "senyoltw"
+  TumblrURL = "https://senyoltw.tumblr.com/"
+  BookmarkURL = "https://b.hatena.ne.jp/iuyui/bookmark"
   Name = "senyoltw"
   HeaderUsername = "senyoltw"
   HeaderHostname = "senyoltw.net"
