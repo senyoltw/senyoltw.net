@@ -1,3 +1,9 @@
+{{ with .Site.Params.BlogURL }}
+<a href="{{.}}" title="Blog"><i class="fas fa-blog fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.BookmarkURL }}
+<a href="{{.}}" title="Hatena Bookmark"><i class="fas fa-bookmark fa-3x" aria-hidden="true"></i></a>
+{{ end }}
 {{ with .Site.Params.GnuPGFingerprint }}
 <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0x{{.}}" title="GPG"><i class="fas fa-unlock-alt fa-3x" aria-hidden="true"></i></a>
 {{ end }}
@@ -9,6 +15,9 @@
 {{ end }}
 {{ with .Site.Params.SlackURL }}
 <a href="{{.}}" title="Slack"><i class="fab fa-slack fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.TumblrURL }}
+<a href="{{.}}" title="Tumblr"><i class="fab fa-tumblr fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .Site.Params.TwitterID }}
 <a href="https://twitter.com/{{.}}" rel="me" title="Twitter"><i class="fab fa-twitter fa-3x" aria-hidden="true"></i></a>
