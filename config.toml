@@ -13,6 +13,7 @@ disqusShortname = "senyoltw.net"
 [params]
   BlogURL = "https://senyoltw.hatenablog.jp/"
   GithubID = "senyoltw"
+  SpeakerDeckID = "senyoltw"
   TwitterID = "senyoltw"
   InstagramID = "senyoltw"
   TumblrURL = "https://senyoltw.tumblr.com/"
