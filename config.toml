@@ -9,6 +9,10 @@ disqusShortname = "senyoltw.net"
     name = "src"
     weight = 0
     url = "https://github.com/senyoltw/senyoltw.net"
+  [[menu.header]]
+    name = ".ssh/authorized_keys"
+    weight = 0
+    url = "https://github.com/senyoltw.keys"
 
 [params]
   BlogURL = "https://senyoltw.hatenablog.jp/"
