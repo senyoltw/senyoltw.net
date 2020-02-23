@@ -19,6 +19,9 @@
 {{ with .Site.Params.BookmarkURL }}
 <a href="{{.}}" title="Hatena Bookmark"><i class="fas fa-bookmark fa-3x" aria-hidden="true"></i></a>
 {{ end }}
+{{ with .Site.Params.AmazonURL }}
+<a href="{{.}}" title="Amazon"><i class="fab fa-amazon fa-3x" aria-hidden="true"></i></a>
+{{ end }}
 {{ with .Site.Params.GnuPGFingerprint }}
 <a href="https://pgp.key-server.io/pks/lookup?op=vindex&search=0x{{.}}" title="GPG"><i class="fas fa-unlock-alt fa-3x" aria-hidden="true"></i></a>
 {{ end }}
